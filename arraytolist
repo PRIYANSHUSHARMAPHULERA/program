@@ -1,0 +1,18 @@
+# importing array class to use array
+import array as arr
+
+# declare array
+a = arr.array ("i", [10, -20, 30, -40, 50])
+# print the type of a
+print ("type of a: ", type(a))
+# print array
+print ("a is:", a);
+
+# declare an empty list
+list1 = list()
+# convert array and assign to the list
+list1 = a.tolist()
+# print type of list1
+print ("Type of list1: ", type(list1))
+# print list
+print ("list1 is: ", list1)
